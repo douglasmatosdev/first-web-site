@@ -1,0 +1,44 @@
+.logotipo {
+    -webkit-position: absolute;
+    -moz-position: absolute;
+    -ms-position: absolute;
+    -o-position: absolute;
+    position: absolute;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+@media (max-width: 1000px) {
+    .logotipo {
+        display: block;
+        -webkit-position: absolute;
+    -moz-position: absolute;
+    -ms-position: absolute;
+    -o-position: absolute;
+    position: absolute;
+        margin-top: 50px;
+        padding-top: 20px;
+        right: 0px;
+    }
+}
+@media (max-width:650px) {
+    .logotipo {
+        display: none;
+    }
+}
+@media (max-width:900px) {
+    .navbar-text {
+        display: none;
+    }
+}
